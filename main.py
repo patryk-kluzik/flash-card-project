@@ -26,6 +26,7 @@ def next_word():
 
     flip_timer = window.after(3000, flip_flashcard)
 
+
 def knows_word():
     words_to_learn.remove(current_card)
 
